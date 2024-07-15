@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(210, 180, 140); /* Tan */
+}
+
+body{
+  font-family: "josefin Sans", sans-serif;
+}
+
+h1{
+  border-bottom: 2pt solid black;
+  padding: 20px;
+  font-size: 28pt;
+}
+
+h2{
+  font-size: 24pt;
+}
+
+h3{
+  position: relative;
+}
+
+p{
+  margin: 0 auto;
+}
+
+.caption {
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+figure {
+  margin: 0 auto;
+  display: block;
+}
+
+#mainlasagna {
+  width: 350px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+legend {
+  margin: 0 auto;
+}
+
+input, #tblspn, #cups {
+}
+
+fieldset {
+  margin: 0 auto;
+}
+
+ul, li{
+  text-align: auto;
+}
+
+ol {
+  text-align: auto;
+}
+
+.title, #maintitle{
+  color: darkred;
+  text-align: center;
+  font-family: Papyrus;
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.title, #secondtitle{
+  color: darkgoldenrod;
+}
+
+#secondtitle {
+  color: darkgoldenrod;
+  text-align: center;
+  font-family: Papyrus;
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#maincaption {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 170px 170px;
+  gap: 5px;
+  float: left;
+  clear: both;
+}
+
+.box2 {
+  margin: 0 auto;
+  overflow: scroll;
+  overflow: hidden;
+}
+
+.rate {
+  margin: 20 auto;
+}
+
+.difficulty {
+  margin: 0 auto
+}
+
+.box3 {
+  margin: 0 auto;
+  text-align: auto;
+  overflow: auto;
+}
+
+.box4 {
+  margin: 0 auto;
+  text-align: auto;
+  overflow: auto;
+}
+
+.box5 {
+  margin: 0 auto;
+  text-align: left;
+  overflow: scroll;
+  overflow: auto;
+  height: 500px;
+}
+
+.box3, .box4, .box5 {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin: 0 auto;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.difficulty-box {
+  border: 1px solid black;
+  padding: 10px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.difficulty-box legend {
+  font-weight: bold;
+}
+
+.difficulty-box label {
+  display: inline;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+#ingredients-section, .box3 {
+  background-image: url(images/ingredients-list-background.jpg); /* not working */
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: darkred;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+input::placeholder {
+  text-align: left;
+}
+
